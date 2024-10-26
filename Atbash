@@ -1,0 +1,21 @@
+ FUNCTION   atbash_cipher(plaintext, shift):
+	
+	 alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+	 reversedalphabet = 'ZYXWVUTSRQPONMLKJIHGFEDCBA'
+	 result=''
+	 final_result=''
+
+	 For each letter in plaintext
+	     IF letter in alphabet IS BETWEEN 'A' AND 'Z' Then
+		    index = position_in_string(alphabet)
+		    result += reversedAlphabet[index]
+	    End If
+	 End For
+	   
+	    For letters in plaintext
+	    	if letter in result 
+	   	new_position = (result + shift) % 26
+	    	final_result += letter
+	    End For
+	    	return final_result
+	    end function
