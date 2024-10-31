@@ -6,7 +6,7 @@ read -p "Enter the path or name of the file you want to search for: " filename
 # Check if the file exists
 if [ -f "$filename" ]; then
     # Display the word count
-    word_count=$(wc -w < "$filepath")
+    word_count=$(wc -w  "$filepath")
     echo "The file '$filepath' contains $word_count words."
 
     # Display the file creation date
