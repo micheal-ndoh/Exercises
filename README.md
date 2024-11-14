@@ -1,2 +1,3 @@
-# wlan-Device-Driver
-# 3-days-30-exercises-challenge
+# ASSIGNMENTS/EXERCISES/PROJECTS
+*This reposituory hold important exercise and projects that performs a specific special task.
+
