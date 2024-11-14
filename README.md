@@ -1,15 +1,15 @@
 # ASSIGNMENTS/EXERCISES/PROJECTS
-*This reposituory hold important exercise and projects that performs a specific special task.
+*This reposituory hold important exercise and projects that performs a specific special task.*
 
 **Clone this repository into your computer using**
 ```shell
-git clone https://github.com/micheal-ndoh/Guessing_GAME.git
+git clone https://github.com/micheal-ndoh/Exercises.git
 ```
-Enter to the repository on your terminal make it executable using
+**Enter to the repository on your terminal make all program executable using**
 ```shell
 chmod +x *
 ```
-**Run a specific program using** 
+**Remove the <program_name> and replace with the program you which to run** 
 ```shell
 ./<program_name>
 ```
